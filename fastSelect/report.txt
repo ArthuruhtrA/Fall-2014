@@ -1,0 +1,30 @@
+1. The pivot lets us discard nearly half the list, making the algorithm take much less time, as it then has less data to sort through each iteration. Which element is selected shouldn't matter, but the more sorted a list is, the closer the median will be to the middle element, meaning that in the best case, the pivot is the median, and should be near it in any similar case. Selecting the first element should still work, but for the median to be the first element, the list would need to be farther from sorted, so it's less ideal.
+
+2. Test numbers at various points, with lists both of odd and even lengths. Test empty list, test large and small lists. Any other edge cases that can be thought of.
+Specific cases include:
+0 -> median (in theory)
+len(list) // 2 -> median (if len(list) is odd)
+
+3. The fastselect method tends to be just over 0.01 seconds, whereas the regular method of sorting first takes a bit over 17 seconds.
+Some run data:
+Normal (In Power-Saver Mode)
+44.904041374938274
+45.43670975766592
+(In Performance Mode)
+17.806664848236764
+(In Full Performance Mode)
+18.269158941958008
+17.04458061177403
+17.185831562601027
+FastSelect (In Power-Saver Mode)
+0.0316773910609828
+(In Performance Mode)
+0.012269664997053275
+0.01236598125543506
+0.012213612092585188
+(In Full Performance Mode)
+0.011768741505715226
+0.011355450019954045
+0.01148571381202777
+
+(Sorry, due to my battery dying in the middle of testing and the power-saver settings on my laptop, the mode changed a few times)

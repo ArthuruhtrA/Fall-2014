@@ -1,0 +1,164 @@
+Testing all sorts with N:1
+qsPivotFirst:
+	 Random data, N:1 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:1 -> Time: 0.000 , Sorted? True
+	 Descending data, N:1 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:1 -> Time: 0.000 , Sorted? True
+qsPivotMedian3:
+	 Random data, N:1 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:1 -> Time: 0.000 , Sorted? True
+	 Descending data, N:1 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:1 -> Time: 0.000 , Sorted? True
+heapSort:
+	 Random data, N:1 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:1 -> Time: 0.000 , Sorted? True
+	 Descending data, N:1 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:1 -> Time: 0.000 , Sorted? True
+quipSort:
+	 Random data, N:1 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:1 -> Time: 0.000 , Sorted? True
+	 Descending data, N:1 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:1 -> Time: 0.000 , Sorted? True
+----------------------------------
+Testing all sorts with N:10
+qsPivotFirst:
+	 Random data, N:10 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:10 -> Time: 0.000 , Sorted? True
+	 Descending data, N:10 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:10 -> Time: 0.000 , Sorted? True
+qsPivotMedian3:
+	 Random data, N:10 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:10 -> Time: 0.000 , Sorted? True
+	 Descending data, N:10 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:10 -> Time: 0.000 , Sorted? True
+heapSort:
+	 Random data, N:10 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:10 -> Time: 0.000 , Sorted? True
+	 Descending data, N:10 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:10 -> Time: 0.000 , Sorted? True
+quipSort:
+	 Random data, N:10 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:10 -> Time: 0.000 , Sorted? True
+	 Descending data, N:10 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:10 -> Time: 0.000 , Sorted? True
+----------------------------------
+Testing all sorts with N:100
+qsPivotFirst:
+	 Random data, N:100 -> Time: 0.001 , Sorted? True
+	 Ascending data, N:100 -> Time: 0.002 , Sorted? True
+	 Descending data, N:100 -> Time: 0.002 , Sorted? True
+	 EvenOdd data, N:100 -> Time: 0.001 , Sorted? True
+qsPivotMedian3:
+	 Random data, N:100 -> Time: 0.001 , Sorted? True
+	 Ascending data, N:100 -> Time: 0.001 , Sorted? True
+	 Descending data, N:100 -> Time: 0.001 , Sorted? True
+	 EvenOdd data, N:100 -> Time: 0.001 , Sorted? True
+heapSort:
+	 Random data, N:100 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:100 -> Time: 0.000 , Sorted? True
+	 Descending data, N:100 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:100 -> Time: 0.000 , Sorted? True
+quipSort:
+	 Random data, N:100 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:100 -> Time: 0.001 , Sorted? True
+	 Descending data, N:100 -> Time: 0.001 , Sorted? True
+	 EvenOdd data, N:100 -> Time: 0.000 , Sorted? True
+----------------------------------
+Testing all sorts with N:1000
+qsPivotFirst:
+	 Random data, N:1000 -> Time: 0.009 , Sorted? True
+	 Ascending data, N:1000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 Descending data, N:1000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 EvenOdd data, N:1000 -> Time: 0.099 , Sorted? True
+qsPivotMedian3:
+	 Random data, N:1000 -> Time: 0.010 , Sorted? True
+	 Ascending data, N:1000 -> Time: 0.009 , Sorted? True
+	 Descending data, N:1000 -> Time: 0.009 , Sorted? True
+	 EvenOdd data, N:1000 -> Time: 0.096 , Sorted? True
+heapSort:
+	 Random data, N:1000 -> Time: 0.001 , Sorted? True
+	 Ascending data, N:1000 -> Time: 0.001 , Sorted? True
+	 Descending data, N:1000 -> Time: 0.001 , Sorted? True
+	 EvenOdd data, N:1000 -> Time: 0.001 , Sorted? True
+quipSort:
+	 Random data, N:1000 -> Time: 0.007 , Sorted? True
+	 Ascending data, N:1000 -> Time: 0.011 , Sorted? True
+	 Descending data, N:1000 -> Time: 0.011 , Sorted? True
+	 EvenOdd data, N:1000 -> Time: 0.004 , Sorted? True
+----------------------------------
+Testing all sorts with N:10000
+qsPivotFirst:
+	 Random data, N:10000 -> Time: 0.087 , Sorted? True
+	 Ascending data, N:10000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 Descending data, N:10000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 EvenOdd data, N:10000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+qsPivotMedian3:
+	 Random data, N:10000 -> Time: 0.114 , Sorted? True
+	 Ascending data, N:10000 -> Time: 0.105 , Sorted? True
+	 Descending data, N:10000 -> Time: 0.107 , Sorted? True
+	 EvenOdd data, N:10000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+heapSort:
+	 Random data, N:10000 -> Time: 0.013 , Sorted? True
+	 Ascending data, N:10000 -> Time: 0.012 , Sorted? True
+	 Descending data, N:10000 -> Time: 0.015 , Sorted? True
+	 EvenOdd data, N:10000 -> Time: 0.012 , Sorted? True
+quipSort:
+	 Random data, N:10000 -> Time: 0.090 , Sorted? True
+	 Ascending data, N:10000 -> Time: 0.116 , Sorted? True
+	 Descending data, N:10000 -> Time: 0.117 , Sorted? True
+	 EvenOdd data, N:10000 -> Time: 0.060 , Sorted? True
+----------------------------------
+Testing all sorts with N:100000
+qsPivotFirst:
+	 Random data, N:100000 -> Time: 1.076 , Sorted? True
+	 Ascending data, N:100000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 Descending data, N:100000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+	 EvenOdd data, N:100000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+qsPivotMedian3:
+	 Random data, N:100000 -> Time: 1.295 , Sorted? True
+	 Ascending data, N:100000 -> Time: 1.183 , Sorted? True
+	 Descending data, N:100000 -> Time: 1.184 , Sorted? True
+	 EvenOdd data, N:100000 -> 
+		RUNTIME ERROR: maximum recursion depth exceeded...
+heapSort:
+	 Random data, N:100000 -> Time: 0.228 , Sorted? True
+	 Ascending data, N:100000 -> Time: 0.155 , Sorted? True
+	 Descending data, N:100000 -> Time: 0.188 , Sorted? True
+	 EvenOdd data, N:100000 -> Time: 0.159 , Sorted? True
+quipSort:
+	 Random data, N:100000 -> Time: 0.996 , Sorted? True
+	 Ascending data, N:100000 -> Time: 1.305 , Sorted? True
+	 Descending data, N:100000 -> Time: 1.308 , Sorted? True
+	 EvenOdd data, N:100000 -> Time: 0.827 , Sorted? True
+----------------------------------
+Testing all sorts with N:1000000
+qsPivotFirst:
+	 Random data, N:1000000 -> N is too large to test!
+	 Ascending data, N:1000000 -> N is too large to test!
+	 Descending data, N:1000000 -> N is too large to test!
+	 EvenOdd data, N:1000000 -> N is too large to test!
+qsPivotMedian3:
+	 Random data, N:1000000 -> N is too large to test!
+	 Ascending data, N:1000000 -> N is too large to test!
+	 Descending data, N:1000000 -> N is too large to test!
+	 EvenOdd data, N:1000000 -> N is too large to test!
+heapSort:
+	 Random data, N:1000000 -> N is too large to test!
+	 Ascending data, N:1000000 -> N is too large to test!
+	 Descending data, N:1000000 -> N is too large to test!
+	 EvenOdd data, N:1000000 -> N is too large to test!
+quipSort:
+	 Random data, N:1000000 -> N is too large to test!
+	 Ascending data, N:1000000 -> N is too large to test!
+	 Descending data, N:1000000 -> N is too large to test!
+	 EvenOdd data, N:1000000 -> N is too large to test!
+----------------------------------

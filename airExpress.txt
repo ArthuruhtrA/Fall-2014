@@ -1,0 +1,10 @@
+checkin William 21
+checkin Frediffer 13
+checkin John 6
+board 12
+checkin Sam 19
+checkin Nora 9
+checkin Elmo 2
+board 7
+checkin Hermo 1000000
+board 5

@@ -1,0 +1,7 @@
+Lenovo G580
+Intel Core i5-3230M @ 2.60Ghz Turbo Boost up to 3.20Ghz
+8.00 GB RAM (7.87 GB Usable)
+Windows 8.1 Pro x86_64
+Python 3.41:c0e311e010fc
+
+Can't get program output. It just times out.
